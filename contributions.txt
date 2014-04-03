@@ -1,0 +1,1 @@
+Jay wrote the front-end JavaScript, Nick and Welsh wrote the backend python parser. Everyone contributed to the collection of our dataset (the lyrics).
