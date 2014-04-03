@@ -17,6 +17,7 @@ svg {
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 
 <script>
 function gup( name ){
@@ -27,22 +28,34 @@ var results = regex.exec( window.location.href );
 if( results == null )    return "";  
 else    return results[1];}
 
-var path = gup("path");
+var lyricpath = gup("lyricpath");
 
-path = path.replace(/%20/g, " ");
-path = path.replace(/%28/g, "(");
-path = path.replace(/%29/g, ")");
-path = path.replace(/%27/g, "'");
+lyricpath = lyricpath.replace(/%20/g, " ");
+lyricpath = lyricpath.replace(/%28/g, "(");
+lyricpath = lyricpath.replace(/%29/g, ")");
+lyricpath = lyricpath.replace(/%27/g, "'");
 
-alert(path);
+var sentimentpath = gup("sentpath");
 
-sentpath = sentpath.concat(".txt")
-alert(path);
+sentimentpath = sentimentpath.replace(/%20/g, " ");
+sentimentpath = sentimentpath.replace(/%28/g, "(");
+sentimentpath = sentimentpath.replace(/%29/g, ")");
+sentimentpath = sentimentpath.replace(/%27/g, "'");
+
+var sentfile = jQuery.get(sentimentpath, function(data){
+	var mydata = data;
+	window.mydata = mydata;
+	//console.log(mydata);
+
+});
+
+console.log(window.mydata);
+
 /*
 var color = d3.scale.ordinal()
       .range(["#191970", "#4169E1", "#1E90FF", "#87CEFA", "#ADD8E6"])
 
-d3.csv(sentpath, function(error, data) {
+d3.csv(lyricpath, function(error, data) {
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Title"; }));
 */
 
