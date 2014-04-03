@@ -93,7 +93,7 @@ d3.csv("data/" + album_name + ".csv", function(error, data) {
       if (album_name == "artist")
         return "testindex.html?album=" + d.Title;
       else
-        return "song.html?path=" + d.Title }) //logic here to give the correct file
+        return "song.html?path=" + d.Title}) //logic here to give the correct file
     .append("svg")
       .attr("class", "pie")
       .attr("width", radius * 2)
