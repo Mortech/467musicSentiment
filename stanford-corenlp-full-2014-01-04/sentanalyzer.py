@@ -64,9 +64,9 @@ for subdir, dirs, files in os.walk('../lyrics/'):
             f.close()
         print 'album= '+alb+' song='+file[:-4]
 
-albumcsvlines = ''
+albumcsvlines = 'Album, Very positive, Positive, Neutral, Negative, Very negative, albumcsv\n'
 for album, info in albums.iteritems():
-    songcsvlines = ''
+    songcsvlines = 'Song, Very positive, Positive, Neutral, Negative, Very negative, songlocation, sentimentfile\n'
     albumcsvlines += album+','+str(info[0])+','+str(info[1])+','+str(info[2])+','+str(info[3])+','+str(info[4])+','+album+'.csv'+'\n'
     for song, data in info[5].iteritems():
         songcsvlines+=song+','+str(data[0])+','+str(data[1])+','+str(data[2])+','+str(data[3])+','+str(data[4])+','+str(data[5])+','+str(data[6])+'\n'
