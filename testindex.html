@@ -19,6 +19,25 @@ svg {
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
+function gup( name ){
+name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");  
+var regexS = "[\\?&]"+name+"=([^&#]*)";  
+var regex = new RegExp( regexS );  
+var results = regex.exec( window.location.href ); 
+if( results == null )    return "";  
+else    return results[1];}
+
+var album_name = gup('album');
+
+if (album_name == ""){
+  album_name = "artist";
+}
+
+album_name = album_name.replace(/%20/g, " ");
+album_name = album_name.replace(/%28/g, "(");
+album_name = album_name.replace(/%29/g, ")");
+album_name = album_name.replace(/%27/g, "'");
+
 var radius = 104,
     padding = 20;
 
@@ -36,8 +55,8 @@ var pie = d3.layout.pie()
     .sort(null)
     .value(function(d) { return d.population; });
 
-d3.csv("data/album.csv", function(error, data) {
-  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Album"; }));
+d3.csv("data/" + album_name + ".csv", function(error, data) {
+  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Title"; }));
 
   data.forEach(function(d) {
     d.ages = color.domain().map(function(name) {
@@ -70,7 +89,7 @@ d3.csv("data/album.csv", function(error, data) {
     .enter()
     .append("a")
    // .attr("href", "http://www.google.com")
-     .attr("href", function(d){ return "testdonut.html" + d.Album})
+     .attr("href", function(d){ return "testindex.html?album=" + d.Title})
     .append("svg")
       .attr("class", "pie")
       .attr("width", radius * 2)
@@ -88,8 +107,9 @@ d3.csv("data/album.csv", function(error, data) {
   svg.append("text")
       .attr("dy", ".35em")
       .style("text-anchor", "middle")
-      .text(function(d) { return d.Album; });
+      .text(function(d) { return d.Title; });
 
 });
 
 </script>
+</body>
