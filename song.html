@@ -42,14 +42,16 @@ sentimentpath = sentimentpath.replace(/%28/g, "(");
 sentimentpath = sentimentpath.replace(/%29/g, ")");
 sentimentpath = sentimentpath.replace(/%27/g, "'");
 
-var sentfile = jQuery.get(sentimentpath, function(data){
-	var mydata = data;
-	window.mydata = mydata;
-	//console.log(mydata);
+var mydata = "hi";
 
+var sentfile = jQuery.get(sentimentpath, function(data){
+	mydata = data;
+	alert(data);
+	//console.log(data);
 });
 
-console.log(window.mydata);
+console.log(mydata);
+console.log(sentfile);
 
 /*
 var color = d3.scale.ordinal()
