@@ -50,11 +50,11 @@ for subdir, dirs, files in os.walk('../lyrics/'):
             i+=1
         if totalpos>10:
             albums[alb][0] += 1
-        else if totalpos>3:
+        elif totalpos>3:
             albums[alb][1] += 1
-        else if totalpos<-10:
+        elif totalpos<-10:
             albums[alb][4] += 1
-        else if totalpos<-3:
+        elif totalpos<-3:
             albums[alb][3] += 1
         else:
             albums[alb][2] += 1
