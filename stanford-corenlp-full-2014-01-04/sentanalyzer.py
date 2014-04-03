@@ -17,51 +17,51 @@ for subdir, dirs, files in os.walk('../lyrics/'):
         if alb not in albums:
             albums[alb] = [0,0,0,0,0,{}]
 
+        if file[-14:]!='_sentiment.txt':
+            song = check_output(['java', '-cp', "*", '-mx5g', 'edu.stanford.nlp.sentiment.SentimentPipeline', '-file', subdir+'/'+file])
+            songtitle = file[:-4]
+            i=0
+            vpos=0
+            pos=0
+            neut=0
+            neg=0
+            vneg=0
+            totalpos = 0
+            sentlines= ''
+            for line in song.split('\n'):
+                if i%2==1:
+                    line = line[2:]
+                    sentlines += line + '\n'
+                    if line=='Very positive':
+                        totalpos += 5
+                        vpos += 1
+                    if line=='Positive':
+                        totalpos += 1
+                        pos += 1
+                    if line=='Neutral':
+                        neut += 1
+                    if line=='Negative':
+                        totalpos -= 1
+                        neg += 1
+                    if line=='Very negative':
+                        totalpos -= 5
+                        vneg += 1
+                i+=1
+            if totalpos>10:
+                albums[alb][0] += 1
+            elif totalpos>3:
+                albums[alb][1] += 1
+            elif totalpos<-10:
+                albums[alb][4] += 1
+            elif totalpos<-3:
+                albums[alb][3] += 1
+            else:
+                albums[alb][2] += 1
+            albums[alb][5][songtitle] = [vpos, pos, neut, neg, vneg, subdir+'/'+file, subdir+'/'+songtitle+'_sentiment.txt']
 
-        song = check_output(['java', '-cp', "*", '-mx5g', 'edu.stanford.nlp.sentiment.SentimentPipeline', '-file', subdir+'/'+file])
-        songtitle = file[:-4]
-        i=0
-        vpos=0
-        pos=0
-        neut=0
-        neg=0
-        vneg=0
-        totalpos = 0
-        sentlines= ''
-        for line in song.split('\n'):
-            if i%2==1:
-                line = line[2:]
-                sentlines += line + '\n'
-                if line=='Very positive':
-                    totalpos += 5
-                    vpos += 1
-                if line=='Positive':
-                    totalpos += 1
-                    pos += 1
-                if line=='Neutral':
-                    neut += 1
-                if line=='Negative':
-                    totalpos -= 1
-                    neg += 1
-                if line=='Very negative':
-                    totalpos -= 5
-                    vneg += 1
-            i+=1
-        if totalpos>10:
-            albums[alb][0] += 1
-        elif totalpos>3:
-            albums[alb][1] += 1
-        elif totalpos<-10:
-            albums[alb][4] += 1
-        elif totalpos<-3:
-            albums[alb][3] += 1
-        else:
-            albums[alb][2] += 1
-        albums[alb][5][songtitle] = [vpos, pos, neut, neg, vneg, subdir+'/'+file, subdir+'/'+songtitle+'_sentiment.txt']
-
-        f = open(subdir+'/'+songtitle+'_sentiment.txt', 'w')
-        f.write(sentlines)
-        f.close()
+            f = open(subdir+'/'+songtitle+'_sentiment.txt', 'w')
+            f.write(sentlines)
+            f.close()
 
 albumcsvlines = ''
 for album, info in albums:
