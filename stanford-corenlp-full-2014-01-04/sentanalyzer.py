@@ -62,12 +62,13 @@ for subdir, dirs, files in os.walk('../lyrics/'):
             f = open(subdir+'/'+songtitle+'_sentiment.txt', 'w')
             f.write(sentlines)
             f.close()
+        print 'album= '+alb+'\r song='+file[:-4]
 
 albumcsvlines = ''
-for album, info in albums:
+for album, info in albums.iteritems():
     songcsvlines = ''
     albumcsvlines += album+','+info[0]+','+info[1]+','+info[2]+','+info[3]+','+info[4]+','+album+'.csv'+'\n'
-    for song, data in info[5]:
+    for song, data in info[5].iteritems():
         songcsvlines+=song+','+data[0]+','+data[1]+','+data[2]+','+data[3]+','+data[4]+','+data[5]+','+data[6]+'\n'
     f = open(album+'.csv', 'w')
     f.write(songcsvlines)
