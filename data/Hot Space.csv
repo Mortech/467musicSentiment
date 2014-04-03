@@ -1,12 +1,12 @@
 Title,Very Positive,Positive,Neutral,Negative,Very Negative,lyricscsv,sentimentcsv
-Under Pressure,1,12,15,12,0,../lyrics/Hot Space/Under Pressure.txt,../lyrics/Hot Space/Under Pressure_sentiment.txt
-Las Palabras de Amor,0,7,18,10,0,../lyrics/Hot Space/Las Palabras de Amor.txt,../lyrics/Hot Space/Las Palabras de Amor_sentiment.txt
-Put Out the Fire,0,3,21,13,0,../lyrics/Hot Space/Put Out the Fire.txt,../lyrics/Hot Space/Put Out the Fire_sentiment.txt
-Life is Real,2,11,11,5,0,../lyrics/Hot Space/Life is Real.txt,../lyrics/Hot Space/Life is Real_sentiment.txt
-Body Language,1,4,10,5,0,../lyrics/Hot Space/Body Language.txt,../lyrics/Hot Space/Body Language_sentiment.txt
-Back Chat,0,8,27,6,0,../lyrics/Hot Space/Back Chat.txt,../lyrics/Hot Space/Back Chat_sentiment.txt
-Coal Cat,0,15,6,10,0,../lyrics/Hot Space/Coal Cat.txt,../lyrics/Hot Space/Coal Cat_sentiment.txt
-Dancer,0,8,8,12,0,../lyrics/Hot Space/Dancer.txt,../lyrics/Hot Space/Dancer_sentiment.txt
-Staying Power,0,17,18,10,0,../lyrics/Hot Space/Staying Power.txt,../lyrics/Hot Space/Staying Power_sentiment.txt
-Calling All Girls,0,10,21,0,0,../lyrics/Hot Space/Calling All Girls.txt,../lyrics/Hot Space/Calling All Girls_sentiment.txt
-Action This Day,0,2,8,4,0,../lyrics/Hot Space/Action This Day.txt,../lyrics/Hot Space/Action This Day_sentiment.txt
+Under Pressure,1,12,15,12,0,lyrics/Hot Space/Under Pressure.txt,lyrics/Hot Space/Under Pressure_sentiment.txt
+Las Palabras de Amor,0,7,18,10,0,lyrics/Hot Space/Las Palabras de Amor.txt,lyrics/Hot Space/Las Palabras de Amor_sentiment.txt
+Put Out the Fire,0,3,21,13,0,lyrics/Hot Space/Put Out the Fire.txt,lyrics/Hot Space/Put Out the Fire_sentiment.txt
+Life is Real,2,11,11,5,0,lyrics/Hot Space/Life is Real.txt,lyrics/Hot Space/Life is Real_sentiment.txt
+Body Language,1,4,10,5,0,lyrics/Hot Space/Body Language.txt,lyrics/Hot Space/Body Language_sentiment.txt
+Back Chat,0,8,27,6,0,lyrics/Hot Space/Back Chat.txt,lyrics/Hot Space/Back Chat_sentiment.txt
+Coal Cat,0,15,6,10,0,lyrics/Hot Space/Coal Cat.txt,lyrics/Hot Space/Coal Cat_sentiment.txt
+Dancer,0,8,8,12,0,lyrics/Hot Space/Dancer.txt,lyrics/Hot Space/Dancer_sentiment.txt
+Staying Power,0,17,18,10,0,lyrics/Hot Space/Staying Power.txt,lyrics/Hot Space/Staying Power_sentiment.txt
+Calling All Girls,0,10,21,0,0,lyrics/Hot Space/Calling All Girls.txt,lyrics/Hot Space/Calling All Girls_sentiment.txt
+Action This Day,0,2,8,4,0,lyrics/Hot Space/Action This Day.txt,lyrics/Hot Space/Action This Day_sentiment.txt

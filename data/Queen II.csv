@@ -1,12 +1,12 @@
 Title,Very positive,Positive,Neutral,Negative,Very negative,lyricscsv,sentimentcsv
-The Loser in the End,0,6,13,6,0,../lyrics/Queen II/The Loser in the End.txt,../lyrics/Queen II/The Loser in the End_sentiment.txt
-See What a Fool I've Been,0,0,8,10,0,../lyrics/Queen II/See What a Fool I've Been.txt,../lyrics/Queen II/See What a Fool I've Been_sentiment.txt
-Some Day One Day,0,4,4,5,0,../lyrics/Queen II/Some Day One Day.txt,../lyrics/Queen II/Some Day One Day_sentiment.txt
-The March of the Black Queen,0,19,14,13,0,../lyrics/Queen II/The March of the Black Queen.txt,../lyrics/Queen II/The March of the Black Queen_sentiment.txt
-Seven Seas of Rhye,0,7,11,5,0,../lyrics/Queen II/Seven Seas of Rhye.txt,../lyrics/Queen II/Seven Seas of Rhye_sentiment.txt
-Ogre Battle,1,4,17,8,0,../lyrics/Queen II/Ogre Battle.txt,../lyrics/Queen II/Ogre Battle_sentiment.txt
-Nevermore,0,0,7,9,0,../lyrics/Queen II/Nevermore.txt,../lyrics/Queen II/Nevermore_sentiment.txt
-White Queen,1,3,20,9,0,../lyrics/Queen II/White Queen.txt,../lyrics/Queen II/White Queen_sentiment.txt
-Funny How Love Is,4,23,3,0,0,../lyrics/Queen II/Funny How Love Is.txt,../lyrics/Queen II/Funny How Love Is_sentiment.txt
-Father to Son,0,7,12,9,0,../lyrics/Queen II/Father to Son.txt,../lyrics/Queen II/Father to Son_sentiment.txt
-The Fairy Feller's Master-Stroke,0,9,14,5,0,../lyrics/Queen II/The Fairy Feller's Master-Stroke.txt,../lyrics/Queen II/The Fairy Feller's Master-Stroke_sentiment.txt
+The Loser in the End,0,6,13,6,0,lyrics/Queen II/The Loser in the End.txt,lyrics/Queen II/The Loser in the End_sentiment.txt
+See What a Fool I've Been,0,0,8,10,0,lyrics/Queen II/See What a Fool I've Been.txt,lyrics/Queen II/See What a Fool I've Been_sentiment.txt
+Some Day One Day,0,4,4,5,0,lyrics/Queen II/Some Day One Day.txt,lyrics/Queen II/Some Day One Day_sentiment.txt
+The March of the Black Queen,0,19,14,13,0,lyrics/Queen II/The March of the Black Queen.txt,lyrics/Queen II/The March of the Black Queen_sentiment.txt
+Seven Seas of Rhye,0,7,11,5,0,lyrics/Queen II/Seven Seas of Rhye.txt,lyrics/Queen II/Seven Seas of Rhye_sentiment.txt
+Ogre Battle,1,4,17,8,0,lyrics/Queen II/Ogre Battle.txt,lyrics/Queen II/Ogre Battle_sentiment.txt
+Nevermore,0,0,7,9,0,lyrics/Queen II/Nevermore.txt,lyrics/Queen II/Nevermore_sentiment.txt
+White Queen,1,3,20,9,0,lyrics/Queen II/White Queen.txt,lyrics/Queen II/White Queen_sentiment.txt
+Funny How Love Is,4,23,3,0,0,lyrics/Queen II/Funny How Love Is.txt,lyrics/Queen II/Funny How Love Is_sentiment.txt
+Father to Son,0,7,12,9,0,lyrics/Queen II/Father to Son.txt,lyrics/Queen II/Father to Son_sentiment.txt
+The Fairy Feller's Master-Stroke,0,9,14,5,0,lyrics/Queen II/The Fairy Feller's Master-Stroke.txt,lyrics/Queen II/The Fairy Feller's Master-Stroke_sentiment.txt

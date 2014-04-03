@@ -1,12 +1,12 @@
 Title,Very Positive,Positive,Neutral,Negative,Very Negative,lyricscsv,sentimentcsv
-You're My Best Friend,2,13,14,4,0,../lyrics/A Night at the Opera/You're My Best Friend.txt,../lyrics/A Night at the Opera/You're My Best Friend_sentiment.txt
-Lazing on a Sunday Afternoon,0,2,7,3,0,../lyrics/A Night at the Opera/Lazing on a Sunday Afternoon.txt,../lyrics/A Night at the Opera/Lazing on a Sunday Afternoon_sentiment.txt
-Death on Two Legs (Dedicated To...),0,6,21,15,0,../lyrics/A Night at the Opera/Death on Two Legs (Dedicated To...).txt,../lyrics/A Night at the Opera/Death on Two Legs (Dedicated To...)_sentiment.txt
-Sweet Lady,0,9,9,6,0,../lyrics/A Night at the Opera/Sweet Lady.txt,../lyrics/A Night at the Opera/Sweet Lady_sentiment.txt
-'39,0,7,17,9,0,../lyrics/A Night at the Opera/'39.txt,../lyrics/A Night at the Opera/'39_sentiment.txt
-I'm In Love With My Car,0,4,3,12,0,../lyrics/A Night at the Opera/I'm In Love With My Car.txt,../lyrics/A Night at the Opera/I'm In Love With My Car_sentiment.txt
-Bohemian Rhapsody,0,12,16,29,1,../lyrics/A Night at the Opera/Bohemian Rhapsody.txt,../lyrics/A Night at the Opera/Bohemian Rhapsody_sentiment.txt
-The Prophet's Song,0,4,14,9,0,../lyrics/A Night at the Opera/The Prophet's Song.txt,../lyrics/A Night at the Opera/The Prophet's Song_sentiment.txt
-Good Company,0,9,20,7,0,../lyrics/A Night at the Opera/Good Company.txt,../lyrics/A Night at the Opera/Good Company_sentiment.txt
-Seaside Rendezvous,0,10,10,3,0,../lyrics/A Night at the Opera/Seaside Rendezvous.txt,../lyrics/A Night at the Opera/Seaside Rendezvous_sentiment.txt
-Love of My Life,0,7,6,6,0,../lyrics/A Night at the Opera/Love of My Life.txt,../lyrics/A Night at the Opera/Love of My Life_sentiment.txt
+You're My Best Friend,2,13,14,4,0,lyrics/A Night at the Opera/You're My Best Friend.txt,lyrics/A Night at the Opera/You're My Best Friend_sentiment.txt
+Lazing on a Sunday Afternoon,0,2,7,3,0,lyrics/A Night at the Opera/Lazing on a Sunday Afternoon.txt,lyrics/A Night at the Opera/Lazing on a Sunday Afternoon_sentiment.txt
+Death on Two Legs (Dedicated To...),0,6,21,15,0,lyrics/A Night at the Opera/Death on Two Legs (Dedicated To...).txt,lyrics/A Night at the Opera/Death on Two Legs (Dedicated To...)_sentiment.txt
+Sweet Lady,0,9,9,6,0,lyrics/A Night at the Opera/Sweet Lady.txt,lyrics/A Night at the Opera/Sweet Lady_sentiment.txt
+'39,0,7,17,9,0,lyrics/A Night at the Opera/'39.txt,lyrics/A Night at the Opera/'39_sentiment.txt
+I'm In Love With My Car,0,4,3,12,0,lyrics/A Night at the Opera/I'm In Love With My Car.txt,lyrics/A Night at the Opera/I'm In Love With My Car_sentiment.txt
+Bohemian Rhapsody,0,12,16,29,1,lyrics/A Night at the Opera/Bohemian Rhapsody.txt,lyrics/A Night at the Opera/Bohemian Rhapsody_sentiment.txt
+The Prophet's Song,0,4,14,9,0,lyrics/A Night at the Opera/The Prophet's Song.txt,lyrics/A Night at the Opera/The Prophet's Song_sentiment.txt
+Good Company,0,9,20,7,0,lyrics/A Night at the Opera/Good Company.txt,lyrics/A Night at the Opera/Good Company_sentiment.txt
+Seaside Rendezvous,0,10,10,3,0,lyrics/A Night at the Opera/Seaside Rendezvous.txt,lyrics/A Night at the Opera/Seaside Rendezvous_sentiment.txt
+Love of My Life,0,7,6,6,0,lyrics/A Night at the Opera/Love of My Life.txt,lyrics/A Night at the Opera/Love of My Life_sentiment.txt

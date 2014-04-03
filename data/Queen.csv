@@ -1,12 +1,12 @@
 Title,Very positive,Positive,Neutral,Negative,Very negative,lyricscsv,sentimentcsv
-Great King Rat,0,7,20,9,0,../lyrics/Queen/Great King Rat.txt,../lyrics/Queen/Great King Rat_sentiment.txt
-Liar,0,3,20,22,0,../lyrics/Queen/Liar.txt,../lyrics/Queen/Liar_sentiment.txt
-Modern Times Rock and Roll,0,6,15,11,0,../lyrics/Queen/Modern Times Rock and Roll.txt,../lyrics/Queen/Modern Times Rock and Roll_sentiment.txt
-Seven Seas of Rhye,0,7,11,5,0,../lyrics/Queen/Seven Seas of Rhye.txt,../lyrics/Queen/Seven Seas of Rhye_sentiment.txt
-Jesus,0,13,11,5,0,../lyrics/Queen/Jesus.txt,../lyrics/Queen/Jesus_sentiment.txt
-Son and Daughter,0,5,9,5,0,../lyrics/Queen/Son and Daughter.txt,../lyrics/Queen/Son and Daughter_sentiment.txt
-Keep Yourself Alive,1,22,26,13,0,../lyrics/Queen/Keep Yourself Alive.txt,../lyrics/Queen/Keep Yourself Alive_sentiment.txt
-My Fairy King,0,4,11,16,0,../lyrics/Queen/My Fairy King.txt,../lyrics/Queen/My Fairy King_sentiment.txt
-The Night Comes Down,0,12,6,3,0,../lyrics/Queen/The Night Comes Down.txt,../lyrics/Queen/The Night Comes Down_sentiment.txt
-Mad the Swine,0,11,33,9,0,../lyrics/Queen/Mad the Swine.txt,../lyrics/Queen/Mad the Swine_sentiment.txt
-Doing All Right,0,4,10,4,0,../lyrics/Queen/Doing All Right.txt,../lyrics/Queen/Doing All Right_sentiment.txt
+Great King Rat,0,7,20,9,0,lyrics/Queen/Great King Rat.txt,lyrics/Queen/Great King Rat_sentiment.txt
+Liar,0,3,20,22,0,lyrics/Queen/Liar.txt,lyrics/Queen/Liar_sentiment.txt
+Modern Times Rock and Roll,0,6,15,11,0,lyrics/Queen/Modern Times Rock and Roll.txt,lyrics/Queen/Modern Times Rock and Roll_sentiment.txt
+Seven Seas of Rhye,0,7,11,5,0,lyrics/Queen/Seven Seas of Rhye.txt,lyrics/Queen/Seven Seas of Rhye_sentiment.txt
+Jesus,0,13,11,5,0,lyrics/Queen/Jesus.txt,lyrics/Queen/Jesus_sentiment.txt
+Son and Daughter,0,5,9,5,0,lyrics/Queen/Son and Daughter.txt,lyrics/Queen/Son and Daughter_sentiment.txt
+Keep Yourself Alive,1,22,26,13,0,lyrics/Queen/Keep Yourself Alive.txt,lyrics/Queen/Keep Yourself Alive_sentiment.txt
+My Fairy King,0,4,11,16,0,lyrics/Queen/My Fairy King.txt,lyrics/Queen/My Fairy King_sentiment.txt
+The Night Comes Down,0,12,6,3,0,lyrics/Queen/The Night Comes Down.txt,lyrics/Queen/The Night Comes Down_sentiment.txt
+Mad the Swine,0,11,33,9,0,lyrics/Queen/Mad the Swine.txt,lyrics/Queen/Mad the Swine_sentiment.txt
+Doing All Right,0,4,10,4,0,lyrics/Queen/Doing All Right.txt,lyrics/Queen/Doing All Right_sentiment.txt

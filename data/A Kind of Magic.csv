@@ -1,10 +1,10 @@
 Title,Very Positive,Positive,Neutral,Negative,Very Negative,lyricscsv,sentimentcsv
-Gimme the Prize,0,2,2,15,0,../lyrics/A Kind of Magic/Gimme the Prize.txt,../lyrics/A Kind of Magic/Gimme the Prize_sentiment.txt
-One Year of Love,0,13,4,12,0,../lyrics/A Kind of Magic/One Year of Love.txt,../lyrics/A Kind of Magic/One Year of Love_sentiment.txt
-A Kind of Magic,0,21,15,1,0,../lyrics/A Kind of Magic/A Kind of Magic.txt,../lyrics/A Kind of Magic/A Kind of Magic_sentiment.txt
-Princes of the Universe,0,10,5,16,0,../lyrics/A Kind of Magic/Princes of the Universe.txt,../lyrics/A Kind of Magic/Princes of the Universe_sentiment.txt
-Friends Will Be Friends,2,11,15,8,0,../lyrics/A Kind of Magic/Friends Will Be Friends.txt,../lyrics/A Kind of Magic/Friends Will Be Friends_sentiment.txt
-Pain is So Close to Pleasure,1,17,5,3,0,../lyrics/A Kind of Magic/Pain is So Close to Pleasure.txt,../lyrics/A Kind of Magic/Pain is So Close to Pleasure_sentiment.txt
-Don't Lose Your Head,0,5,12,7,0,../lyrics/A Kind of Magic/Don't Lose Your Head.txt,../lyrics/A Kind of Magic/Don't Lose Your Head_sentiment.txt
-Who Wants to Live Forever,0,7,10,3,0,../lyrics/A Kind of Magic/Who Wants to Live Forever.txt,../lyrics/A Kind of Magic/Who Wants to Live Forever_sentiment.txt
-One Vision,0,33,11,10,0,../lyrics/A Kind of Magic/One Vision.txt,../lyrics/A Kind of Magic/One Vision_sentiment.txt
+Gimme the Prize,0,2,2,15,0,lyrics/A Kind of Magic/Gimme the Prize.txt,lyrics/A Kind of Magic/Gimme the Prize_sentiment.txt
+One Year of Love,0,13,4,12,0,lyrics/A Kind of Magic/One Year of Love.txt,lyrics/A Kind of Magic/One Year of Love_sentiment.txt
+A Kind of Magic,0,21,15,1,0,lyrics/A Kind of Magic/A Kind of Magic.txt,lyrics/A Kind of Magic/A Kind of Magic_sentiment.txt
+Princes of the Universe,0,10,5,16,0,lyrics/A Kind of Magic/Princes of the Universe.txt,lyrics/A Kind of Magic/Princes of the Universe_sentiment.txt
+Friends Will Be Friends,2,11,15,8,0,lyrics/A Kind of Magic/Friends Will Be Friends.txt,lyrics/A Kind of Magic/Friends Will Be Friends_sentiment.txt
+Pain is So Close to Pleasure,1,17,5,3,0,lyrics/A Kind of Magic/Pain is So Close to Pleasure.txt,lyrics/A Kind of Magic/Pain is So Close to Pleasure_sentiment.txt
+Don't Lose Your Head,0,5,12,7,0,lyrics/A Kind of Magic/Don't Lose Your Head.txt,lyrics/A Kind of Magic/Don't Lose Your Head_sentiment.txt
+Who Wants to Live Forever,0,7,10,3,0,lyrics/A Kind of Magic/Who Wants to Live Forever.txt,lyrics/A Kind of Magic/Who Wants to Live Forever_sentiment.txt
+One Vision,0,33,11,10,0,lyrics/A Kind of Magic/One Vision.txt,lyrics/A Kind of Magic/One Vision_sentiment.txt

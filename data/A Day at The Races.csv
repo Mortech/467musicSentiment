@@ -1,11 +1,11 @@
 Title,Very Positive,Positive,Neutral,Negative,Very Negative,lyricscsv,sentimentcsv
-Drowse,0,7,10,14,0,../lyrics/A Day at The Races/Drowse.txt,../lyrics/A Day at The Races/Drowse_sentiment.txt
-Somebody to Love,0,7,15,15,0,../lyrics/A Day at The Races/Somebody to Love.txt,../lyrics/A Day at The Races/Somebody to Love_sentiment.txt
-White Man,0,5,24,7,0,../lyrics/A Day at The Races/White Man.txt,../lyrics/A Day at The Races/White Man_sentiment.txt
-The Millionaire Waltz,0,10,8,7,0,../lyrics/A Day at The Races/The Millionaire Waltz.txt,../lyrics/A Day at The Races/The Millionaire Waltz_sentiment.txt
-Tie Your Mother Down,0,4,12,22,0,../lyrics/A Day at The Races/Tie Your Mother Down.txt,../lyrics/A Day at The Races/Tie Your Mother Down_sentiment.txt
-You Take My Breath Away,0,18,9,6,0,../lyrics/A Day at The Races/You Take My Breath Away.txt,../lyrics/A Day at The Races/You Take My Breath Away_sentiment.txt
-Good Old-Fashioned Lover Boy,0,11,9,19,0,../lyrics/A Day at The Races/Good Old-Fashioned Lover Boy.txt,../lyrics/A Day at The Races/Good Old-Fashioned Lover Boy_sentiment.txt
-Long Away,0,9,18,7,0,../lyrics/A Day at The Races/Long Away.txt,../lyrics/A Day at The Races/Long Away_sentiment.txt
-Teo Toriatte (Let Us Cling Together),0,7,19,7,0,../lyrics/A Day at The Races/Teo Toriatte (Let Us Cling Together).txt,../lyrics/A Day at The Races/Teo Toriatte (Let Us Cling Together)_sentiment.txt
-You and I,0,2,3,0,0,../lyrics/A Day at The Races/You and I.txt,../lyrics/A Day at The Races/You and I_sentiment.txt
+Drowse,0,7,10,14,0,lyrics/A Day at The Races/Drowse.txt,lyrics/A Day at The Races/Drowse_sentiment.txt
+Somebody to Love,0,7,15,15,0,lyrics/A Day at The Races/Somebody to Love.txt,lyrics/A Day at The Races/Somebody to Love_sentiment.txt
+White Man,0,5,24,7,0,lyrics/A Day at The Races/White Man.txt,lyrics/A Day at The Races/White Man_sentiment.txt
+The Millionaire Waltz,0,10,8,7,0,lyrics/A Day at The Races/The Millionaire Waltz.txt,lyrics/A Day at The Races/The Millionaire Waltz_sentiment.txt
+Tie Your Mother Down,0,4,12,22,0,lyrics/A Day at The Races/Tie Your Mother Down.txt,lyrics/A Day at The Races/Tie Your Mother Down_sentiment.txt
+You Take My Breath Away,0,18,9,6,0,lyrics/A Day at The Races/You Take My Breath Away.txt,lyrics/A Day at The Races/You Take My Breath Away_sentiment.txt
+Good Old-Fashioned Lover Boy,0,11,9,19,0,lyrics/A Day at The Races/Good Old-Fashioned Lover Boy.txt,lyrics/A Day at The Races/Good Old-Fashioned Lover Boy_sentiment.txt
+Long Away,0,9,18,7,0,lyrics/A Day at The Races/Long Away.txt,lyrics/A Day at The Races/Long Away_sentiment.txt
+Teo Toriatte (Let Us Cling Together),0,7,19,7,0,lyrics/A Day at The Races/Teo Toriatte (Let Us Cling Together).txt,lyrics/A Day at The Races/Teo Toriatte (Let Us Cling Together)_sentiment.txt
+You and I,0,2,3,0,0,lyrics/A Day at The Races/You and I.txt,lyrics/A Day at The Races/You and I_sentiment.txt
