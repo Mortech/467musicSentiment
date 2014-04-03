@@ -1,14 +1,14 @@
-Title,Very Positive,Positive,Neutral,Negative,Very Negative,albumcsv
-A Night at the Opera,1,1,5,3,1,A Night at the Opera.csv
+Title,Very Positive,Positive,Neutral,Negative,Very Negative
 Queen,1,2,5,1,2,Queen.csv
 Queen II,1,2,6,2,0,Queen II.csv
+Sheer Heart Attack,1,0,6,6,2,Sheer Heart Attack.csv
+A Night at the Opera,1,1,5,3,1,A Night at the Opera.csv
+A Day at The Races,1,0,5,3,1,A Day at The Races.csv
+News of the World,0,0,2,8,1,News of the World.csv
+Jazz,1,1,3,5,3,Jazz.csv
+The Game,0,2,3,2,3,The Game.csv
+Hot Space,1,5,3,2,0,Hot Space.csv
 The Works,0,2,2,4,2,The Works.csv
 A Kind of Magic,4,1,2,1,1,A Kind of Magic.csv
-Innuendo,0,1,6,3,2,Innuendo.csv
-Hot Space,1,5,3,2,0,Hot Space.csv
-Jazz,1,1,3,5,3,Jazz.csv
-Sheer Heart Attack,1,0,6,6,2,Sheer Heart Attack.csv
-The Game,0,2,3,2,3,The Game.csv
-News of the World,0,0,2,8,1,News of the World.csv
 The Miracle,3,3,0,3,1,The Miracle.csv
-A Day at The Races,1,0,5,3,1,A Day at The Races.csv
+Innuendo,0,1,6,3,2,Innuendo.csv
