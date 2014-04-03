@@ -38,7 +38,7 @@ album_name = album_name.replace(/%28/g, "(");
 album_name = album_name.replace(/%29/g, ")");
 album_name = album_name.replace(/%27/g, "'");
 
-var radius = 104,
+var radius = 124,
     padding = 20;
 
 //var color = d3.scale.ordinal()
@@ -89,7 +89,11 @@ d3.csv("data/" + album_name + ".csv", function(error, data) {
     .enter()
     .append("a")
    // .attr("href", "http://www.google.com")
-     .attr("href", function(d){ return "testindex.html?album=" + d.Title})
+     .attr("href", function(d){ 
+      if (album_name == "artist")
+        return "testindex.html?album=" + d.Title;
+      else
+        return "song.html?path=" + d.Title }) //logic here to give the correct file
     .append("svg")
       .attr("class", "pie")
       .attr("width", radius * 2)

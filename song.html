@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+svg {
+  padding: 10px 0 0 10px;
+}
+
+.arc {
+  stroke: #fff;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+function gup( name ){
+name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");  
+var regexS = "[\\?&]"+name+"=([^&#]*)";  
+var regex = new RegExp( regexS );  
+var results = regex.exec( window.location.href ); 
+if( results == null )    return "";  
+else    return results[1];}
+
+var path = gup("path");
+
+path = path.replace(/%20/g, " ");
+path = path.replace(/%28/g, "(");
+path = path.replace(/%29/g, ")");
+path = path.replace(/%27/g, "'");
+
+
+
+sentpath = sentpath.concat(".txt")
+alert(path);
+/*
+var color = d3.scale.ordinal()
+      .range(["#191970", "#4169E1", "#1E90FF", "#87CEFA", "#ADD8E6"])
+
+d3.csv(sentpath, function(error, data) {
+  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Title"; }));
+*/
+
+</script>
+</body>
