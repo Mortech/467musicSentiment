@@ -70,9 +70,9 @@ for album, info in albums.iteritems():
     albumcsvlines += album+','+str(info[0])+','+str(info[1])+','+str(info[2])+','+str(info[3])+','+str(info[4])+','+album+'.csv'+'\n'
     for song, data in info[5].iteritems():
         songcsvlines+=song+','+str(data[0])+','+str(data[1])+','+str(data[2])+','+str(data[3])+','+str(data[4])+','+str(data[5])+','+str(data[6])+'\n'
-    f = open(album+'.csv', 'w')
+    f = open('../data/'+album+'.csv', 'w')
     f.write(songcsvlines)
     f.close()
-f = open('artist.csv', 'w')
+f = open('../data/artist.csv', 'w')
 f.write(albumcsvlines)
 f.close()
