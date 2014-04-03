@@ -1,3 +1,4 @@
+Title,Very positive,Positive,Neutral,Negative,Very negative,lyricscsv,sentimentcsv
 Play the Game,0,11,6,5,0,../lyrics/The Game/Play the Game.txt,../lyrics/The Game/Play the Game_sentiment.txt
 Need Your Loving Tonight,0,5,6,11,0,../lyrics/The Game/Need Your Loving Tonight.txt,../lyrics/The Game/Need Your Loving Tonight_sentiment.txt
 Save Me,0,10,6,12,0,../lyrics/The Game/Save Me.txt,../lyrics/The Game/Save Me_sentiment.txt

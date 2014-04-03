@@ -1,3 +1,4 @@
+Title,Very positive,Positive,Neutral,Negative,Very negative,lyricscsv,sentimentcsv
 We Will Rock You,0,2,19,7,0,../lyrics/News of the World/We Will Rock You.txt,../lyrics/News of the World/We Will Rock You_sentiment.txt
 We Are the Champions,0,6,12,18,0,../lyrics/News of the World/We Are the Champions.txt,../lyrics/News of the World/We Are the Champions_sentiment.txt
 Fight From the Inside,0,0,16,8,0,../lyrics/News of the World/Fight From the Inside.txt,../lyrics/News of the World/Fight From the Inside_sentiment.txt

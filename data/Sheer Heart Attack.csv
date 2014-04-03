@@ -1,3 +1,4 @@
+Title,Very positive,Positive,Neutral,Negative,Very negative,lyricscsv,sentimentcsv
 Flick of the Wrist,0,8,13,19,0,../lyrics/Sheer Heart Attack/Flick of the Wrist.txt,../lyrics/Sheer Heart Attack/Flick of the Wrist_sentiment.txt
 Big Bad Caused a Mighty Fine Sensation,0,1,3,5,0,../lyrics/Sheer Heart Attack/Big Bad Caused a Mighty Fine Sensation.txt,../lyrics/Sheer Heart Attack/Big Bad Caused a Mighty Fine Sensation_sentiment.txt
 Tenement Funster,0,5,4,5,0,../lyrics/Sheer Heart Attack/Tenement Funster.txt,../lyrics/Sheer Heart Attack/Tenement Funster_sentiment.txt

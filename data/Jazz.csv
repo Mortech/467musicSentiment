@@ -1,3 +1,4 @@
+Title,Very positive,Positive,Neutral,Negative,Very negative,lyricscsv,sentimentcsv
 In Only Seven Days,0,1,10,10,0,../lyrics/Jazz/In Only Seven Days.txt,../lyrics/Jazz/In Only Seven Days_sentiment.txt
 If You Can't Beat Them,0,4,13,10,0,../lyrics/Jazz/If You Can't Beat Them.txt,../lyrics/Jazz/If You Can't Beat Them_sentiment.txt
 Leaving Home Ain't Easy,0,6,15,14,0,../lyrics/Jazz/Leaving Home Ain't Easy.txt,../lyrics/Jazz/Leaving Home Ain't Easy_sentiment.txt

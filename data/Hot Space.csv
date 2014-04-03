@@ -1,3 +1,4 @@
+Title,Very Positive,Positive,Neutral,Negative,Very Negative,lyricscsv,sentimentcsv
 Under Pressure,1,12,15,12,0,../lyrics/Hot Space/Under Pressure.txt,../lyrics/Hot Space/Under Pressure_sentiment.txt
 Las Palabras de Amor,0,7,18,10,0,../lyrics/Hot Space/Las Palabras de Amor.txt,../lyrics/Hot Space/Las Palabras de Amor_sentiment.txt
 Put Out the Fire,0,3,21,13,0,../lyrics/Hot Space/Put Out the Fire.txt,../lyrics/Hot Space/Put Out the Fire_sentiment.txt

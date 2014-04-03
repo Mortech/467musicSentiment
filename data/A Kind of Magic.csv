@@ -1,3 +1,4 @@
+Title,Very Positive,Positive,Neutral,Negative,Very Negative,lyricscsv,sentimentcsv
 Gimme the Prize,0,2,2,15,0,../lyrics/A Kind of Magic/Gimme the Prize.txt,../lyrics/A Kind of Magic/Gimme the Prize_sentiment.txt
 One Year of Love,0,13,4,12,0,../lyrics/A Kind of Magic/One Year of Love.txt,../lyrics/A Kind of Magic/One Year of Love_sentiment.txt
 A Kind of Magic,0,21,15,1,0,../lyrics/A Kind of Magic/A Kind of Magic.txt,../lyrics/A Kind of Magic/A Kind of Magic_sentiment.txt

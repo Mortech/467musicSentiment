@@ -1,3 +1,4 @@
+Title,Very Positive,Positive,Neutral,Negative,Very Negative,lyricscsv,sentimentcsv
 Drowse,0,7,10,14,0,../lyrics/A Day at The Races/Drowse.txt,../lyrics/A Day at The Races/Drowse_sentiment.txt
 Somebody to Love,0,7,15,15,0,../lyrics/A Day at The Races/Somebody to Love.txt,../lyrics/A Day at The Races/Somebody to Love_sentiment.txt
 White Man,0,5,24,7,0,../lyrics/A Day at The Races/White Man.txt,../lyrics/A Day at The Races/White Man_sentiment.txt

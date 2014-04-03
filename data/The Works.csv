@@ -1,3 +1,4 @@
+Title,Very positive,Positive,Neutral,Negative,Very negative,lyricscsv,sentimentcsv
 Is This the World We Created,0,3,16,1,0,../lyrics/The Works/Is This the World We Created.txt,../lyrics/The Works/Is This the World We Created_sentiment.txt
 I Go Crazy,0,7,10,16,0,../lyrics/The Works/I Go Crazy.txt,../lyrics/The Works/I Go Crazy_sentiment.txt
 Radio Gaga,0,7,16,21,0,../lyrics/The Works/Radio Gaga.txt,../lyrics/The Works/Radio Gaga_sentiment.txt

@@ -1,3 +1,4 @@
+Title,Very positive,Positive,Neutral,Negative,Very negative,lyricscsv,sentimentcsv
 Delilan,0,9,6,10,0,../lyrics/Innuendo/Delilan.txt,../lyrics/Innuendo/Delilan_sentiment.txt
 The Hitman,0,5,21,13,0,../lyrics/Innuendo/The Hitman.txt,../lyrics/Innuendo/The Hitman_sentiment.txt
 These are the Days of Our Lives,0,10,12,7,0,../lyrics/Innuendo/These are the Days of Our Lives.txt,../lyrics/Innuendo/These are the Days of Our Lives_sentiment.txt
