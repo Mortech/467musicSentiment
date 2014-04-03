@@ -67,9 +67,9 @@ for subdir, dirs, files in os.walk('../lyrics/'):
 albumcsvlines = ''
 for album, info in albums.iteritems():
     songcsvlines = ''
-    albumcsvlines += album+','+info[0]+','+info[1]+','+info[2]+','+info[3]+','+info[4]+','+album+'.csv'+'\n'
+    albumcsvlines += album+','+str(info[0])+','+str(info[1])+','+str(info[2])+','+str(info[3])+','+str(info[4])+','+album+'.csv'+'\n'
     for song, data in info[5].iteritems():
-        songcsvlines+=song+','+data[0]+','+data[1]+','+data[2]+','+data[3]+','+data[4]+','+data[5]+','+data[6]+'\n'
+        songcsvlines+=song+','+str(data[0])+','+str(data[1])+','+str(data[2])+','+str(data[3])+','+str(data[4])+','+str(data[5])+','+str(data[6])+'\n'
     f = open(album+'.csv', 'w')
     f.write(songcsvlines)
     f.close()
