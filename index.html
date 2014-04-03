@@ -56,7 +56,7 @@ var pie = d3.layout.pie()
     .value(function(d) { return d.population; });
 
 d3.csv("data/" + album_name + ".csv", function(error, data) {
-  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Title"; }));
+  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Title" && key!=="lyricscsv" && key!=="sentimentcsv"; }));
 
   data.forEach(function(d) {
     d.ages = color.domain().map(function(name) {
@@ -91,7 +91,7 @@ d3.csv("data/" + album_name + ".csv", function(error, data) {
    // .attr("href", "http://www.google.com")
      .attr("href", function(d){ 
       if (album_name == "artist")
-        return "testindex.html?album=" + d.Title;
+        return "index.html?album=" + d.Title;
       else
         return "song.html?lyricpath=" + d.lyricscsv + "&sentpath="+ d.sentimentcsv}) //logic here to give the correct file
     .append("svg")
