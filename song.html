@@ -3,7 +3,7 @@
 <style>
 
 body {
-  font: 10px sans-serif;
+  font: 14px sans-serif;
 }
 
 svg {
@@ -14,8 +14,20 @@ svg {
   stroke: #fff;
 }
 
+.hiddensentdata p{
+	font: 1px;
+	visibility:hidden;
+}
 </style>
+
 <body>
+
+<div class="hiddensentdata">
+</div>
+
+<div class="lyricdata">
+</div>
+
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 
@@ -42,24 +54,59 @@ sentimentpath = sentimentpath.replace(/%28/g, "(");
 sentimentpath = sentimentpath.replace(/%29/g, ")");
 sentimentpath = sentimentpath.replace(/%27/g, "'");
 
-var mydata = "hi";
-
 var sentfile = jQuery.get(sentimentpath, function(data){
-	mydata = data;
-	alert(data);
-	//console.log(data);
+	var lines = data.split("\n");
+
+	for(var i in lines){
+		//console.log(lines[i]);
+		$(".hiddensentdata")
+		.append("<p " + "id=\"" + i + "\">" +  lines[i] + "</p>");
+	}
+
 });
 
-console.log(mydata);
-console.log(sentfile);
+var lyricfile = jQuery.get(lyricpath, function(data){
+	var lines = data.split("\n");
 
-/*
-var color = d3.scale.ordinal()
-      .range(["#191970", "#4169E1", "#1E90FF", "#87CEFA", "#ADD8E6"])
+	for(var i in lines){
+		//console.log(lines[i]);
+		text = document.getElementById(i).innerHTML
+		
+		if(text == "Very positive"){
+			
+			$(".lyricdata")
+		.append("<p style=\"color:#191970\";>" +  lines[i] + "</p>");
+		
+		}
+		else if(text == "Positive"){
+		
+		$(".lyricdata")
+		.append("<p style=\"color:#4169E1\";>" +  lines[i] + "</p>");
 
-d3.csv(lyricpath, function(error, data) {
-  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Title"; }));
-*/
+		}
+		else if(text == "Neutral"){
+		
+		$(".lyricdata")
+		.append("<p style=\"color:#1E90FF\";>" +  lines[i] + "</p>");
+
+		}
+		else if(text == "Negative"){
+
+		$(".lyricdata")
+		.append("<p style=\"color:#87CEFA\";>" +  lines[i] + "</p>");
+
+		}
+		else{
+
+		$(".lyricdata")
+		.append("<p style=\"color:#ADD8E6\";>" +  lines[i] + "</p>");
+
+		}
+	}
+
+	
+
+});
 
 </script>
 </body>
