@@ -9,7 +9,6 @@ import os
 #Songs csv file with following format:
 #song, #Vposlines, #poslines, #neutrallines, #neglines, #Vneglines, location, sentimentfile
 
-
 albums = {}
 
 for subdir, dirs, files in os.walk('../lyrics/'):
@@ -19,7 +18,7 @@ for subdir, dirs, files in os.walk('../lyrics/'):
             albums[alb] = [0,0,0,0,0,{}]
 
 
-        song = check_output(['java -cp "*" -mx5g edu.stanford.nlp.sentiment.SentimentPipeline -file '+subdir+'/'+file], shell=True)
+        song = check_output(['java', '-cp', "*", '-mx5g', 'edu.stanford.nlp.sentiment.SentimentPipeline', '-file', subdir+'/'+file])
         songtitle = file[:-4]
         i=0
         vpos=0
